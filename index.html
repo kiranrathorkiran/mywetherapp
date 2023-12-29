@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>wether app using html css and javascript</title> 
+    <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.0.0/fonts/remixicon.css"
+    rel="stylesheet"
+/>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="con">
+        <div class="header">
+           <div class="serchbox">
+               <input class="input" type="text" placeholder="enter your location" />
+               <button class="ri-search-line" id="serchbtn"></button>
+            </div>
+           
+        </div>
+        <div class="wether-body">
+         <img class="wetherimege" src="./imeges/sun.jpg" alt="wetherimege" >
+         <p class="wetherbox">0<sup style="font-size: 5px;">O</sup><sup id="c">c</sup></p>
+           <p class="dec">light-rain</p>
+        </div>
+        <br/>
+        <div class="wetherdetial">
+               <div class="humidity">
+            <i class="ri-drop-fill"></i>
+                
+                <div class="text">
+                    <span id="humidity">45%</span>
+                        <p>humidity</p>
+                </div>
+               </div><br/><br/>
+           <div class="wind">
+            <div class="text">
+                <i class="ri-windy-fill"></i>
+                <span id="wind-speed">12km/h</span>
+                    <p>wind-speed</p>
+            </div>
+           </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
+
